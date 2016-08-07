@@ -5,10 +5,10 @@ Dockerfile dosyasının içeriği:
 RUN apt-get -y update && apt-get install -y fortunes
 CMD /usr/games/fortune -a | cowsay </code></pre>
 
-docker-whale inşa edildi.
+<br>docker-whale inşa edildi.
 <img class="" src="01.png" alt="" />
 
-<br> < boo > yazıldı.
+<br>< boo > yazıldı.
 <img class="" src="1.png" alt="" />
 
 <br>İmageslere baktım. Şuan daha önce oluşturduğum hello-world ve az önce oluşturulan docker/whalesey var. Bu sefer de < boo-boo > yazdırıldı.
