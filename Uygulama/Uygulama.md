@@ -1,7 +1,7 @@
 
 <br>Mydockerbuild dizini oluşturuldu. İçerisinde Dockerfile dosyası oluşturuldu.
 Dockerfile dosyasının içeriği:
-<pre><code> FROM docker/whalesay:latest
+<pre><code>FROM docker/whalesay:latest
 RUN apt-get -y update && apt-get install -y fortunes
 CMD /usr/games/fortune -a | cowsay </code></pre>
 
